@@ -1,0 +1,47 @@
+
+.intro_group{
+    margin-top: 70px;
+
+    p{
+        color: #fff;
+        font-weight: 300;
+        font-size: 1.3em;
+        text-align: left;
+        line-height: 1.5em;
+        letter-spacing: 0.04em;
+    }
+}
+
+.btn{
+    background-color: $primary-colour;
+    color: #000;
+    border: $desk-colour;
+    padding: 0.5%;
+    font-size: 1.1em;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: 0.5%;
+}
+
+
+.btn:hover{
+    background-color: #000;
+    color: $primary-colour;
+    border: 1px solid $primary-colour;
+}
+
+.btn:outline{
+    outline: none;
+    border: 1px solid $primary-colour;
+}
+
+.btn:focus{
+    outline: none;
+    border: 1px solid $primary-colour;
+}
+
+.btn:visited{
+    outline: none;
+    border: 1px solid $primary-colour;
+}
+
