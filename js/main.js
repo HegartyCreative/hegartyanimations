@@ -29,7 +29,7 @@ tl
 .staggerFrom(right, 1.5, {opacity:0, x: 500, ease:Bounce.easeOut}, 0.25)
 .from(desk, 1, {autoAlpha: 0, ease:Power1.easeOut, delay: 2})
 .from(worker, 1, {autoAlpha: 0, ease:Power1.easeOut})
-.from(floor, 1, {autoAlpha: 0, ease:Power1.easeOut}, '-=1')
+.from(floor, 1, {autoAlpha: 0, ease:Power1.easeOut})
 .from(notepad, 1, {autoAlpha: 0, ease:Power1.easeOut})
 .from(computer, 1, {autoAlpha: 0, ease:Power1.easeOut})
 .from(pad, 1, {autoAlpha: 0, ease:Power1.easeOut})
@@ -41,12 +41,20 @@ tl
 .from(iphone, 1, {autoAlpha: 0, ease:Power1.easeOut})
 .from(magnify, 1, {autoAlpha: 0, ease:Power1.easeOut})
 .from(calculator, 1, {autoAlpha: 0, ease:Power1.easeOut})
-.from(bg, 1.5, {autoAlpha: 0, ease:Power1.easeOut, delay: 2});
+.from(bg, 1.5, {autoAlpha: 0, ease:Power1.easeOut, delay: 3});
 
-tl.pause();
+    tl.pause();
 
     $('#btn_play').on('click', function(){
         tl.play();
+    });
+
+    $('#btn_pause').on('click', function(){
+        tl.pause();
+    });
+
+    $('#btn_resume').on('click', function(){
+        tl.resume();
     });
 
     $('#btn_restart').on('click', function(){
