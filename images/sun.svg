@@ -1,0 +1,33 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231.15 231.15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gold;
+      }
+    </style>
+  </defs>
+  <title>sun</title>
+  <g>
+    <circle class="cls-1" cx="115.57" cy="115.57" r="77.21"/>
+    <polygon class="cls-1" points="125.41 29.14 105.98 29.14 115.69 0 125.41 29.14"/>
+    <polygon class="cls-1" points="98.22 30.33 79.74 36.33 79.97 5.62 98.22 30.33"/>
+    <polygon class="cls-1" points="72.72 39.86 57.01 51.28 47.74 22 72.72 39.86"/>
+    <polygon class="cls-1" points="51.42 56.81 40.01 72.52 22.14 47.54 51.42 56.81"/>
+    <polygon class="cls-1" points="36.41 79.51 30.4 97.98 5.69 79.74 36.41 79.51"/>
+    <polygon class="cls-1" points="29.14 105.74 29.14 125.16 0 115.45 29.14 105.74"/>
+    <polygon class="cls-1" points="30.33 132.93 36.33 151.4 5.62 151.17 30.33 132.93"/>
+    <polygon class="cls-1" points="39.86 158.42 51.28 174.14 22 183.41 39.86 158.42"/>
+    <polygon class="cls-1" points="56.81 179.72 72.52 191.14 47.54 209 56.81 179.72"/>
+    <polygon class="cls-1" points="79.51 194.74 97.98 200.74 79.74 225.45 79.51 194.74"/>
+    <polygon class="cls-1" points="105.74 202.01 125.16 202.01 115.45 231.15 105.74 202.01"/>
+    <polygon class="cls-1" points="132.93 200.82 151.4 194.81 151.17 225.53 132.93 200.82"/>
+    <polygon class="cls-1" points="158.42 191.28 174.14 179.87 183.41 209.15 158.42 191.28"/>
+    <polygon class="cls-1" points="179.72 174.33 191.14 158.62 209 183.6 179.72 174.33"/>
+    <polygon class="cls-1" points="194.74 151.64 200.74 133.16 225.45 151.4 194.74 151.64"/>
+    <polygon class="cls-1" points="202.01 125.41 202.01 105.98 231.15 115.7 202.01 125.41"/>
+    <polygon class="cls-1" points="200.82 98.22 194.81 79.74 225.53 79.98 200.82 98.22"/>
+    <polygon class="cls-1" points="191.28 72.72 179.87 57.01 209.15 47.74 191.28 72.72"/>
+    <polygon class="cls-1" points="174.34 51.42 158.62 40.01 183.6 22.14 174.34 51.42"/>
+    <polygon class="cls-1" points="151.64 36.41 133.16 30.4 151.4 5.69 151.64 36.41"/>
+  </g>
+</svg>
