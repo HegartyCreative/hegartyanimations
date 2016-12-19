@@ -40,6 +40,14 @@ $("document").ready(function(){
         tl5.play();
     });
 
+var homeWrapper = $('.homeWrapper');
+master = new TimelineLite();
+
+master
+.from(homeWrapper, 2, {autoAlpha: 0, ease:Power1.easeIn})
+
+
+
 var header = $('.header-section');
 var left = $(['#html', '#css','#js','#responsive','#cross']);
 var right = $(['#git', '#node','#bootstrap','#animation','#wordpress']);
