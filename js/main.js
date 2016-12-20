@@ -6,6 +6,8 @@ $("document").ready(function(){
     tl3.pause();
     tl4.pause();
     tl5.pause();
+    tla.pause();
+    tlb.pause();
     });
 
     $('#btn_play').on('click', function(){
@@ -14,6 +16,8 @@ $("document").ready(function(){
         tl3.play();
         tl4.play();
         tl5.play();
+        tla.play();
+        tlb.play();
     });
 
     $('#btn_pause').on('click', function(){
@@ -22,6 +26,8 @@ $("document").ready(function(){
         tl3.pause();
         tl4.pause();
         tl5.pause();
+        tla.pause();
+        tlb.pause();
     });
 
     $('#btn_resume').on('click', function(){
@@ -30,6 +36,8 @@ $("document").ready(function(){
         tl3.resume();
         tl4.resume();
         tl5.resume();
+        tla.resume();
+        tlb.resume();
     });
 
     $('#btn_restart').on('click', function(){
@@ -38,6 +46,8 @@ $("document").ready(function(){
         tl3.play();
         tl4.play();
         tl5.play();
+        tla.play();
+        tlb.play();
     });
 
 var homeWrapper = $('.homeWrapper');
@@ -45,8 +55,6 @@ master = new TimelineLite();
 
 master
 .from(homeWrapper, 2, {autoAlpha: 0, ease:Power1.easeIn})
-
-
 
 var header = $('.header-section');
 var left = $(['#html', '#css','#js','#responsive','#cross']);
@@ -163,6 +171,51 @@ tl5
   ease: Power2.easeOut
 })
 .timeScale(2);
+
+
+var myAdLink = ('#myAdLink');
+var txt1 = ('#myAd_txt1');
+var txt2 = ('#myAd_txt2');
+var txt3 = ('#myAd_txt3');
+var marker = ('#myAd_marker');
+var shadow = ('#myAd_shadow');
+var surfboard = ('#myAd_surfboard');
+var clouds = ('#myAd_clouds');
+
+var tla = new TimelineMax();
+tla
+    .to(myAdLink, 1.2, {opacity: 1})
+    .from(txt2, 1.3, {top: -100, ease: Power2.easeOut})
+    .to('#myAd_txt_1', 2, {top: 210, left: -70, rotation: -100, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_2', 2, {top: 210, left: -60, rotation: 45, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_3', 2, {top: 210, left: -50, rotation: -180, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_4', 2, {top: 210, left: -40, rotation: 85, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_5', 2, {top: 210, left: -30, rotation: -229, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_6', 2, {top: 210, left: -20, rotation: 5, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_7', 2, {top: 210, left: -10, rotation: -118, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_8', 2, {top: 210, left: 0, rotation: 130, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_9', 2, {top: 210, left: 10, rotation: -19, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_10', 2, {top: 210, left: 20, rotation: 70, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_11', 2, {top: 210, left: 30, rotation: -190, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_12', 2, {top: 210, left: 40, rotation: 45, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_13', 2, {top: 210, left: 50, rotation: -350, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_14', 2, {top: 210, left: 60, rotation: 35, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_15', 2, {top: 210, left: 70, rotation: -200, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_16', 2, {top: 210, left: 75, rotation: 32, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_17', 2, {top: 210, left: 80, rotation: -180, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .to('#myAd_txt_18', 2, {top: 210, left: 85, rotation: 178, ease: Power2.easeOut}, 'myAd_ltr-=0.9')
+    .from(marker, 1.2, {top: -110, ease: Bounce.easeOut}, '-=0.5')
+    .from(shadow, 1.2, {opacity:0, ease: Bounce.easeOut}, '-=1.2')
+    .from(txt3, 1.2, {scale: .0, opacity: 0, ease: Bounce.easeOut}, '-=0.9')
+    .from(surfboard, 1.5, {top: 260, rotation: -130, left: 300, ease: Back.easeOut}, 'cta');
+    //tl1.seek('cta');
+
+var tlb = new TimelineMax({repeat: -1});
+tlb
+    .to(clouds, 65, {backgroundPositionX: 649, ease: Power0.easeOut});
+
+
+
 
 
 
