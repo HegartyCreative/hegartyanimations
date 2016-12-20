@@ -508,15 +508,15 @@ li {
   left: 60px;
   z-index: -5; }
   .sun img {
-    width: 70%; }
+    width: 100%; }
 
 .ballon {
   position: absolute;
-  top: -50px;
-  left: 90px;
+  top: -90px;
+  left: 70px;
   z-index: -5; }
   .ballon img {
-    width: 50%; }
+    width: 100%; }
 
 .bird {
   position: absolute;
@@ -524,15 +524,15 @@ li {
   left: 870px;
   z-index: 200; }
   .bird img {
-    width: 110%; }
+    width: 100%; }
 
 .eyes {
   position: absolute;
   top: 127px;
   left: 965px;
-  z-index: 200; }
+  z-index: 250; }
   .eyes img {
-    width: 18%; }
+    width: 100%; }
 
 body {
   padding: 30px; }

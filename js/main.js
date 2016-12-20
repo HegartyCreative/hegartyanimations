@@ -40,16 +40,6 @@ $("document").ready(function(){
         tlb.resume();
     });
 
-    $('#btn_restart').on('click', function(){
-        tl.play();
-        tl2.play();
-        tl3.play();
-        tl4.play();
-        tl5.play();
-        tla.play();
-        tlb.play();
-    });
-
 var homeWrapper = $('.homeWrapper');
 master = new TimelineLite();
 
@@ -149,7 +139,7 @@ tl4
 .to(cloud1, 12, {x: 480, delay: 2})
 .to(cloud2, 12, {x: -480}, '-=3')
 .to(cloud3, 12, {x: 480}, '-=4')
-.to(ballon, 15, {x: 360, y: 200, scale: 1.4, ease: Power2.easeInOut}, '-=5')
+.to(ballon, 15, {x: 350, y: 220, scale: 1.4, ease: Power2.easeInOut}, '-=5')
 .to(cloud4, 12, {x: -480}, '-=4')
 .to(cloud5, 12, {x: 480}, '-=2');
 
