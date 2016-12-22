@@ -1,0 +1,384 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+  max-width: 800px;
+  width: 90%;
+  margin: 30px auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+a#property{
+  display: inline-block;
+  // opacity: 0;
+}
+
+#propertyAd{
+  width: 800px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+.myPropertyAd_img{
+  position: absolute;
+  background: url(../images/graphics.png) no-repeat 0px 0px;
+}
+
+
+#bkg{
+  width: 800px;
+  height: 550px;
+  background-position: -899px -1466px;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+}
+
+#intro1{
+  width: 192px;
+  height: 280px;
+  background-position: -64px -1554px;
+  top: 110px;
+  left: 70px;
+  z-index: 100;
+}
+
+#intro2{
+  width: 307px;
+  height: 379px;
+  background-position: -304px -1510px;
+  top: 20px;
+  left: 240px;
+  z-index: 100;
+}
+
+#intro3{
+  width: 176px;
+  height: 270px;
+  background-position: -656px -1564px;
+  top: 139px;
+  left: 540px;
+  z-index: 100;
+}
+
+#text1{
+  width: 115px;
+  height: 60px;
+  background-position: -1082px -534px;
+  top: 415px;
+  left: 67px;
+  z-index: 300;
+}
+
+#text2{
+  width: 215px;
+  height: 67px;
+  background-position: -1300px -530px;
+  top: 415px;
+  left: 213px;
+  z-index: 300;
+}
+
+#text3{
+  width: 290px;
+  height: 65px;
+  background-position: -1590px -530px;
+  top: 415px;
+  left: 447px;
+  z-index: 300;
+}
+
+
+
+
+
+
+#start{
+  width: 800px;
+  height: 550px;
+  background-position: 0px 0px;
+  top: 0px;
+  left: 0px;
+}
+
+#test1{
+  width: 223px;
+  height: 178px;
+  background-position: -1770px -1471px;
+  top: 85px;
+  left: 125px;
+  z-index: 200;
+}
+
+#test2{
+  width: 289px;
+  height: 158px;
+  background-position: -1782px -1720px;
+  top: 320px;
+  left: 105px;
+  z-index: 200;
+}
+
+#test3{
+  width: 319px;
+  height: 195px;
+  background-position: -2227px -1463px;
+  top: 60px;
+  left: 400px;
+  z-index: 200;
+}
+
+#test4{
+  width: 283px;
+  height: 187px;
+  background-position: -2187px -1719px;
+  top: 300px;
+  left: 430px;
+  z-index: 200;
+}
+
+
+
+
+
+
+.leftPanel{
+  width: 400px;
+  height: 550px;
+  background-color: #2caae1;
+}
+
+.rightPanel{
+  width: 400px;
+  height: 550px;
+  background-color: #3c3c3b;
+}
+
+#toolsText{
+  width: 297px;
+  height: 22px;
+  background-position: -857px -421px;
+  z-index: 200;
+  top: 35px;
+  left: 20px;
+}
+
+#paint{
+  width: 55px;
+  height: 60px;
+  background-position: -855px -50px;
+  top: 90px;
+  left: 30px;
+  z-index: 200;
+}
+
+#ladder{
+  width: 45px;
+  height: 73px;
+  background-position: -943px -43px;
+  top: 85px;
+  left: 110px;
+  z-index: 200;
+}
+
+#hammer{
+  width: 75px;
+  height: 74px;
+  background-position: -1029px -44px;
+  top: 85px;
+  left: 180px;
+  z-index: 200;
+}
+
+#drill{
+  width: 118px;
+  height: 63px;
+  background-position: -1133px -50px;
+  top: 90px;
+  left: 270px;
+  z-index: 200;
+}
+
+#brush{
+  width: 52px;
+  height: 80px;
+  background-position: -858px -143px;
+  top: 190px;
+  left: 30px;
+  z-index: 200;
+}
+
+#saw{
+  width: 84px;
+  height: 84px;
+  background-position: -931px -140px;
+  top: 190px;
+  left: 100px;
+  z-index: 200;
+}
+
+#tape{
+  width: 119px;
+  height: 64px;
+  background-position: -1033px -149px;
+  top: 193px;
+  left: 190px;
+  z-index: 200;
+}
+
+#ruler{
+  width: 71px;
+  height: 80px;
+  background-position: -1166px -139px;
+  top: 183px;
+  left: 310px;
+  z-index: 200;
+}
+
+#spanner{
+  width: 84px;
+  height: 74px;
+  background-position: -847px -247px;
+  top: 300px;
+  left: 27px;
+  z-index: 200;
+}
+
+#nails{
+  width: 74px;
+  height: 91px;
+  background-position: -951px -243px;
+  top: 300px;
+  left: 125px;
+  z-index: 200;
+}
+
+#plug{
+  width: 63px;
+  height: 95px;
+  background-position: -1061px -243px;
+  top: 300px;
+  left: 224px;
+  z-index: 200;
+}
+
+#pipes{
+  width: 83px;
+  height: 83px;
+  background-position: -1157px -243px;
+  top: 295px;
+  left: 305px;
+  z-index: 200;
+}
+
+#screwdriver{
+  width: 83px;
+  height: 90px;
+  background-position: -1314px -32px;
+  top: 410px;
+  left: 27px;
+  z-index: 200;
+}
+
+#tap{
+  width: 84px;
+  height: 89px;
+  background-position: -1418px -38px;
+  top: 410px;
+  left: 120px;
+  z-index: 200;
+}
+
+#paintCan {
+  width: 74px;
+  height: 86px;
+  background-position: -1528px -43px;
+  top: 410px;
+  left: 220px;
+  z-index: 200;
+}
+
+#spade {
+  width: 76px;
+  height: 76px;
+  background-position: -1633px -54px;
+  top: 410px;
+  left: 310px;
+  z-index: 200;
+}
+
+
+
+
+
+
+#contactText1 {
+  width: 352px;
+  height: 22px;
+  background-position: -1315px -164px;
+  top: 34px;
+  left: 420px;
+  z-index: 200;
+}
+
+
+#telephone {
+  width: 117px;
+  height: 84px;
+  background-position: -70px -682px;
+  top: 100px;
+  left: 440px;
+  z-index: 300;
+}
+
+#email {
+  width: 177px;
+  height: 77px;
+  background-position: -270px -696px;
+  top: 180px;
+  left: 600px;
+  z-index: 300;
+}
+
+#address {
+  width: 190px;
+  height: 96px;
+  background-position: -70px -811px;
+  top: 280px;
+  left: 490px;
+  z-index: 300;
+}
+
+#twitter {
+  width: 55px;
+  height: 57px;
+  background-position: -1640px -355px;
+  top: 475px;
+  left: 630px;
+  z-index: 300;
+}
+
+
+#facebook {
+  width: 53px;
+  height: 53px;
+  background-position: -1751px -355px;
+  top: 475px;
+  left: 700px;
+  z-index: 300;
+}
+
+#houses {
+  width: 377px;
+  height: 261px;
+  background-position: -660px -727px;
+  top: 140px;
+  left: 25px;
+  z-index: 300;
+}
+
+
+
