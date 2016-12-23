@@ -1,7 +1,5 @@
 
 
-
-
 var intro1 = $('#intro1');
 var intro2 = $('#intro2');
 var intro3 = $('#intro3');

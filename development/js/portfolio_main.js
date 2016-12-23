@@ -1,4 +1,3 @@
-$("document").ready(function(){
 
 var bkg1 = ('#bkg1');
 var one = ('#one');
@@ -13,29 +12,24 @@ var eight = ('#eight');
 var tl_portfolio = new TimelineMax();
 
  tl_portfolio.pause();
-tl_portfolio2.pause();
 
      $('#btn1_play').on('click', function(){
         tl_portfolio.play();
-        tl_portfolio2.play();
     });
 
      $('#btn1_pause').on('click', function(){
         tl_portfolio.pause();
-        tl_portfolio2.pause();
     });
 
      $('#btn1_resume').on('click', function(){
         tl_portfolio.resume();
-        tl_portfolio2.resume();
         });
 
      $('#btn1_restart').on('click', function(){
-         tl_portfolio.time(0);
-         tl_portfolio2.time(0);
-         tl_portfolio.play();
-         tl_portfolio2.play();
+         tl_portfolio.time(0)
+        tl_portfolio.play();
         });
+
 
 tl_portfolio
 .from(bkg1, 1, {autoAlpha: 0, ease: Power2.easeIn})
@@ -54,7 +48,6 @@ tl_portfolio
 .from(seven, 3, {opacity: 0, y: 200, ease: Power2.easeOut}, '-=3')
 .to(seven, 3, {delay: 3, y: -220, ease: Power2.easeOut})
 .from(eight, 3, {opacity: 0, y: 200, ease: Power2.easeOut}, '-=3');
-});
 
 var eyes = $('#eyes');
 var tl_portfolio2 = new TimelineMax({repeat: -1});
