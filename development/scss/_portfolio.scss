@@ -1,0 +1,41 @@
+
+body{
+  padding: 30px;
+}
+
+.wrapper{
+  max-width: 800px;
+  width: 90%;
+  margin: 30px auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+a#portfolio{
+  display: inline-block;
+  // opacity: 0;
+}
+
+#portfolioAd{
+  width: 800px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+.myPortfolioAd_img{
+  position: absolute;
+  background: url(../images/graphics2.png) no-repeat 0px 0px;
+}
+
+#bkg1{
+  width: 800px;
+  height: 550px;
+  background-position: 0px 0px;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+}
+
+
+
