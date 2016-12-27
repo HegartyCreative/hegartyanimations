@@ -1,0 +1,196 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+  max-width: 800px;
+  width: 90%;
+  margin: 30px auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+a#travel{
+  display: inline-block;
+  // opacity: 0;
+}
+
+#travelAd{
+  width: 800px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+.myTravelAd_img{
+  position: absolute;
+  background: url(../images/graphics3.png) no-repeat 0px 0px;
+}
+
+#travelLogo{
+  width: 303px;
+  height: 280px;
+  background-position: 0px 0px;
+  top: 200px;
+  left: 70px;
+  z-index: 300;
+}
+
+#left{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#right{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#introText1{
+  position: absolute;
+  top: -325px;
+  left: -40px;
+}
+
+#planeDownRight{
+  position: absolute;
+  top: -300px;
+  left: -10px;
+}
+
+#introText2{
+  position: absolute;
+  top: -305px;
+  left: 490px;
+}
+
+#planeDownLeft{
+  position: absolute;
+  top: -305px;
+  left: 720px;
+}
+
+#introText3{
+  position: absolute;
+  bottom: -305px;
+  left: -145px;
+}
+
+#planeUpRight{
+  position: absolute;
+  bottom: -60px;
+  left: 155px;
+}
+
+#introText4{
+  position: absolute;
+  top: -305px;
+  left: 490px;
+}
+
+#paris{
+  width: 800px;
+  height: 550px;
+  background-position: -45px -273px;
+  top: 00px;
+  right: 0px;
+  z-index: 300;
+}
+
+#parisText{
+  position: absolute;
+  top: 0px;
+  left: 270px;
+}
+
+#kenya{
+  width: 800px;
+  height: 550px;
+  background-position: -0px -840px;
+  top: 0px;
+  right: 0px;
+  z-index: 300;
+}
+
+#introText5{
+  position: absolute;
+  top: -350px;
+  left: -65px;
+}
+
+#brazil{
+  width: 800px;
+  height: 550px;
+  background-position: -45px -1412px;
+  top: 0px;
+  right: 0px;
+  z-index: 300;
+}
+
+#introText6{
+  position: absolute;
+  top: -290px;
+  left: 500px;
+}
+
+#canada{
+  width: 800px;
+  height: 550px;
+  background-position: -0px -1972px;
+  top: 0px;
+  right: 0px;
+  z-index: 300;
+}
+
+#introText7{
+  position: absolute;
+  top: -355px;
+  left: -60px;
+}
+
+#newYork{
+  width: 800px;
+  height: 550px;
+  background-position: -45px -2539px;
+  top: 0px;
+  right: 0px;
+  z-index: 300;
+}
+
+#introText8{
+  position: absolute;
+  top: -305px;
+  left: 490px;
+}
+
+#bangkok{
+  width: 800px;
+  height: 550px;
+  background-position: -0px -3109px;
+  top: 0px;
+  right: 0px;
+  z-index: 300;
+}
+
+#introText9{
+  position: absolute;
+  top: -350px;
+  left: -60px;
+}
+
+#travelLogo1{
+  width: 303px;
+  height: 280px;
+  background-position: 0px 0px;
+  top: 70px;
+  left: 250px;
+  z-index: 300;
+}
+
+#contact{
+  position: absolute;
+  top: 380px;
+  left: 215px;
+}
