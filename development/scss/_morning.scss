@@ -28,8 +28,27 @@ a#morning{
   background: url(../images/graphics4.png) no-repeat 0px 0px;
 }
 
+#night{
+  width: 800px;
+  height: 550px;
+  background-position: 0px -1375px;
+  top: 0px;
+  left: 0px;
+  z-index: 200;
+}
+
+#sun{
+  width: 74px;
+  height: 74px;
+  background-position: -1528px -562px;
+  left: 310px;
+  z-index: 3;
+}
+
 #bkg_morning{
-  position: absolute;
+  width: 800px;
+  height: 550px;
+  background-position: 0px -600px;
   top: 0px;
   left: 0px;
   z-index: 0;
@@ -41,5 +60,203 @@ a#morning{
   background-position: 0px 0px;
   top: 0px;
   left: 0px;
+  z-index: 10;
+}
+
+#trees{
+  width: 2285px;
+  height: 139px;
+  background-position: -120px -1196px;
+  top: 440px;
+  left: 0px;
   z-index: 50;
 }
+
+#car1{
+  width: 35px;
+  height: 24px;
+  background-position: -868px -593px;
+  top: 485px;
+  z-index: 20;
+}
+
+#car3{
+  width: 37px;
+  height: 22px;
+  background-position: -937px -594px;
+  top: 484px;
+  z-index: 20;
+}
+
+#car5{
+  width: 37px;
+  height: 22px;
+  background-position: -1021px -592px;
+  top: 483px;
+  z-index: 20;
+}
+
+#car7{
+  width: 37px;
+  height: 22px;
+  background-position: -1080px -597px;
+  top: 490px;
+  z-index: 20;
+}
+
+
+#car2{
+  width: 37px;
+  height: 22px;
+  background-position: -864px -635px;
+  top: 487px;
+  z-index: 20;
+}
+
+#car4{
+  width: 40px;
+  height: 23px;
+  background-position: -938px -638px;
+  top: 490px;
+  z-index: 20;
+}
+
+#car6{
+  width: 37px;
+  height: 20px;
+  background-position: -1022px -637px;
+  top: 487px;
+  z-index: 20;
+}
+
+#car8{
+  width: 42px;
+  height: 17px;
+  background-position: -1082px -641px;
+  top: 495px;
+  z-index: 20;
+}
+
+#bannerPlane{
+  width: 219px;
+  height: 40px;
+  background-position: -1181px -663px;
+  top: 30px;
+  left: -290px;
+  z-index: 50;
+}
+
+#cloud1{
+  width: 104px;
+  height: 56px;
+  background-position: -845px -705px;
+  top: 30px;
+  left: 830px;
+  z-index: 20;
+}
+
+#cloud2{
+  width: 145px;
+  height: 80px;
+  background-position: -980px -691px;
+  top: 45px;
+  left: -150px;
+  z-index: 5;
+}
+
+#balloon{
+  width: 63px;
+  height: 93px;
+  background-position: -1423px -573px;
+  top: -100px;
+  left: 100px;
+  z-index: 5;
+}
+
+#cloud3{
+  width: 154px;
+  height: 74px;
+  background-position: -820px -793px;
+  top: 20px;
+  left: -150px;
+  z-index: 5;
+}
+
+#cloud4{
+  width: 178px;
+  height: 67px;
+  background-position: -997px -796px;
+  top: 17px;
+  left: 810px;
+  z-index: 5;
+}
+
+#helicopter{
+  width: 81px;
+  height: 54px;
+  background-position: -1282px -583px;
+  top: 130px;
+  left: 820px;
+  z-index: 5;
+}
+
+#cloud5{
+  width: 140px;
+  height: 76px;
+  background-position: -830px -899px;
+  top: 22px;
+  left: 810px;
+  z-index: 5;
+}
+
+#nightlife{
+  width: 155px;
+  height: 138px;
+  background-position: -1210px -730px;
+  top: 140px;
+  left: 200px;
+  z-index: 200;
+  opacity: 0;
+}
+
+#broadway{
+  width: 160px;
+  height: 130px;
+  background-position: -1390px -730px;
+  top: 150px;
+  left: 70px;
+  z-index: 200;
+  opacity: 0;
+}
+
+#shopping{
+  width: 176px;
+  height: 165px;
+  background-position: -1208px -888px;
+  top: 130px;
+  left: 70px;
+  z-index: 200;
+  opacity: 0;
+}
+
+#food{
+  width: 139px;
+  height: 155px;
+  background-position: -1413px -888px;
+  top: 140px;
+  left: 250px;
+  z-index: 200;
+  opacity: 0;
+}
+
+#people{
+  width: 139px;
+  height: 155px;
+  background-position: -1579px -802px;
+  top: 150px;
+  left: 300px;
+  z-index: 200;
+  opacity: 0;
+}
+
+
