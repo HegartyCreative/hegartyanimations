@@ -51,10 +51,6 @@ var tl_property = new TimelineMax();
         tl_property.pause();
     });
 
-     $('#btn_resume').on('click', function(){
-        tl_property.resume();
-        });
-
      $('#btn_restart').on('click', function(){
          tl_property.time(0)
         tl_property.play();

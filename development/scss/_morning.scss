@@ -66,7 +66,7 @@ a#morning{
 #trees{
   width: 2285px;
   height: 139px;
-  background-position: -120px -1196px;
+  background-position: -120px -1190px;
   top: 440px;
   left: 0px;
   z-index: 50;
@@ -158,7 +158,7 @@ a#morning{
 #cloud2{
   width: 145px;
   height: 80px;
-  background-position: -980px -691px;
+  background-position: -980px -688px;
   top: 45px;
   left: -150px;
   z-index: 5;
@@ -176,7 +176,7 @@ a#morning{
 #cloud3{
   width: 154px;
   height: 74px;
-  background-position: -820px -793px;
+  background-position: -820px -789px;
   top: 20px;
   left: -150px;
   z-index: 5;
@@ -213,18 +213,8 @@ a#morning{
   width: 155px;
   height: 138px;
   background-position: -1210px -730px;
-  top: 140px;
-  left: 200px;
-  z-index: 200;
-  opacity: 0;
-}
-
-#broadway{
-  width: 160px;
-  height: 130px;
-  background-position: -1390px -730px;
-  top: 150px;
-  left: 70px;
+  top: 190px;
+  left: 15px;
   z-index: 200;
   opacity: 0;
 }
@@ -232,9 +222,20 @@ a#morning{
 #shopping{
   width: 176px;
   height: 165px;
-  background-position: -1208px -888px;
-  top: 130px;
-  left: 70px;
+  background-position: -1208px -885px;
+  top: 140px;
+  left: 160px;
+  z-index: 200;
+  opacity: 0;
+}
+
+
+#broadway{
+  width: 160px;
+  height: 130px;
+  background-position: -1390px -730px;
+  top: 190px;
+  left: 320px;
   z-index: 200;
   opacity: 0;
 }
@@ -242,9 +243,9 @@ a#morning{
 #food{
   width: 139px;
   height: 155px;
-  background-position: -1413px -888px;
+  background-position: -1410px -884px;
   top: 140px;
-  left: 250px;
+  left: 480px;
   z-index: 200;
   opacity: 0;
 }
@@ -252,11 +253,36 @@ a#morning{
 #people{
   width: 139px;
   height: 155px;
-  background-position: -1579px -802px;
-  top: 150px;
-  left: 300px;
+  background-position: -1579px -799px;
+  top: 200px;
+  left: 640px;
   z-index: 200;
   opacity: 0;
 }
 
+#nySkyline{
+  width: 723px;
+  height: 271px;
+  background-position: -990px -1432px;
+  top: 45px;
+  left: 40px;
+  z-index: 300;
+}
 
+#nyText{
+  width: 743px;
+  height: 45px;
+  background-position: -934px -1778px;
+  top: 340px;
+  left: 33px;
+  z-index: 300;
+}
+
+#end{
+  width: 800px;
+  height: 550px;
+  background-position: 0px -2000px;
+  top: 0px;
+  left: 0px;
+  z-index: 400;
+}

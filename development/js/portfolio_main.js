@@ -21,10 +21,6 @@ var tl_portfolio = new TimelineMax();
         tl_portfolio.pause();
     });
 
-     $('#btn1_resume').on('click', function(){
-        tl_portfolio.resume();
-        });
-
      $('#btn1_restart').on('click', function(){
          tl_portfolio.time(0)
         tl_portfolio.play();

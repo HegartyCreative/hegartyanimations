@@ -35,10 +35,6 @@ var tl_travel = new TimelineMax();
         tl_travel.pause();
     });
 
-     $('#btn2_resume').on('click', function(){
-        tl_travel.resume();
-        });
-
      $('#btn2_restart').on('click', function(){
         tl_travel.time(0)
         tl_travel.play();
